@@ -1,14 +1,14 @@
 {
-    "title": "範例曲目庫",
-    "titleUrl" : "https://github.com/ChrisTorng/SongsRemixDemo",
+    "title": "UP 生命力教會",
+    "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2023/9/6 範例",
-            "subTitleUrl": "https://christorng.github.io/SongsRemixDemo/",
+            "subTitle": "2023/9/10",
+            "subTitleUrl": "",
             "songs": [
                 {
-                    "name": "戴佩妮 - 時間快轉",
-                    "youtubeId": "0tm76edS7WM"
+                    "name": "",
+                    "youtubeId": ""
                 }
             ]
         }
