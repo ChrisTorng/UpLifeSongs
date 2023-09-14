@@ -25,6 +25,7 @@ def generate_waveform(mp3_path, png_path, size=(600, 30), dpi=96):
     plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
     plt.ylim(-1, 1) # 限制 y 軸的範圍以確保直線可見
     plt.savefig(png_path, format='png', transparent=True)
+    plt.close()
 
 def process_directory(directory):
     for root, dirs, files in os.walk(directory):
