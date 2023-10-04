@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2023/9/24",
+            "subTitle": "2023/10/8",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "約書亞 - 你是神",
+                    "youtubeId": "YpVHUv_6y0o"
+                },
+                {
+                    "name": "以斯拉 - 全能神創造主",
+                    "youtubeId": "nNisOiTsGdM"
+                }
+            ]
+        },
+        {
+            "subTitle": "2023/9/24",
+            "subTitleUrl": "https://www.youtube.com/watch?v=AQYSrHKMjYQ",
             "songs": [
                 {
                     "name": "JESUS FASHION 3.0 - 興起的時刻",
