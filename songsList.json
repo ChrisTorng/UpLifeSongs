@@ -3,8 +3,26 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2023/10/8",
+            "subTitle": "2023/10/15",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 26 - 獻上讚美祭",
+                    "youtubeId": "cxDQ5YpYXlA"
+                },
+                {
+                    "name": "生命河 9 - 神已經成就了",
+                    "youtubeId": "Ix3dNF4zp-0"
+                },
+                {
+                    "name": "讚美之泉 19 - 我們歡迎君王降臨",
+                    "youtubeId": "kp0nbIAnhn0"
+                }
+            ]
+        },
+        {
+            "subTitle": "2023/10/8",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/636671788639360",
             "songs": [
                 {
                     "name": "約書亞 - 你是神",
