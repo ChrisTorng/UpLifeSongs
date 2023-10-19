@@ -7,16 +7,16 @@
             "subTitleUrl": "",
             "songs": [
                 {
-                    "name": "讚美之泉 18 - 齊來讚美",
-                    "youtubeId": "x--7r9JdMWM"
-                },
-                {
                     "name": "以斯拉 - 復興從我開始",
                     "youtubeId": "H3k7W9p-j1g"
                 },
                 {
                     "name": "生命河 5 - 戰勝巨人的恩膏",
                     "youtubeId": "Wm4C5aZobnk"
+                },
+                {
+                    "name": "Gateway - 全然得勝",
+                    "youtubeId": "GaUXvnIk7kYpython d   "
                 }
             ]
         },
@@ -107,6 +107,16 @@
                 {
                     "name": "天堂敬拜 - 盼望聖靈",
                     "youtubeId": "VLGTCr1uv30"
+                }
+            ]
+        },
+        {
+            "subTitle": "其他",
+            "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 18 - 齊來讚美",
+                    "youtubeId": "x--7r9JdMWM"
                 }
             ]
         }
