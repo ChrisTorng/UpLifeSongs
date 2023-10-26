@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2023/10/22",
+            "subTitle": "2023/10/29",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "約書亞 - 你是全能神",
+                    "youtubeId": "Ty9lSkFvYh0"
+                },
+                {
+                    "name": "約書亞 - 都指向祢",
+                    "youtubeId": "AKm7W0doYLI"
+                }
+            ]
+        },
+        {
+            "subTitle": "2023/10/22",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/341458621703672/",
             "songs": [
                 {
                     "name": "以斯拉 - 復興從我開始",
@@ -17,106 +31,6 @@
                 {
                     "name": "Gateway - 全然得勝",
                     "youtubeId": "GaUXvnIk7kY"
-                }
-            ]
-        },
-        {
-            "subTitle": "2023/10/15",
-            "subTitleUrl": "https://www.facebook.com/100064596465679/videos/266438039149815/",
-            "songs": [
-                {
-                    "name": "讚美之泉 26 - 獻上讚美祭",
-                    "youtubeId": "cxDQ5YpYXlA"
-                },
-                {
-                    "name": "生命河 9 - 神已經成就了",
-                    "youtubeId": "Ix3dNF4zp-0"
-                },
-                {
-                    "name": "讚美之泉 19 - 我們歡迎君王降臨",
-                    "youtubeId": "kp0nbIAnhn0"
-                }
-            ]
-        },
-        {
-            "subTitle": "2023/10/8",
-            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/636671788639360",
-            "songs": [
-                {
-                    "name": "約書亞 - 你是神",
-                    "youtubeId": "YpVHUv_6y0o"
-                },
-                {
-                    "name": "以斯拉 - 全能神創造主",
-                    "youtubeId": "nNisOiTsGdM"
-                },
-                {
-                    "name": "讚美之泉 20 - 新的異象，新的方向",
-                    "youtubeId": "mHSSuQA3LQo"
-                }
-            ]
-        },
-        {
-            "subTitle": "2023/9/24",
-            "subTitleUrl": "https://www.youtube.com/watch?v=AQYSrHKMjYQ",
-            "songs": [
-                {
-                    "name": "JESUS FASHION 3.0 - 興起的時刻",
-                    "youtubeId": "3VGiEhtUXKA"
-                },
-                {
-                    "name": "讚美之泉 27 - 我是承載神榮耀的器皿",
-                    "youtubeId": "Z3RbUC1kL5Y"
-                },
-                {
-                    "name": "大衛帳幕的榮耀 - 成為祝福",
-                    "youtubeId": "K2bdSYim7uI"
-                }
-            ]
-        },
-        {
-            "subTitle": "2023/9/17",
-            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/847653473292965/",
-            "songs": [
-                {
-                    "name": "讚美之泉 19 - 這裡有榮耀",
-                    "youtubeId": "V7MIkQD7fvg"
-                },
-                {
-                    "name": "讚美之泉 27 - 我是承載神榮耀的器皿",
-                    "youtubeId": "Z3RbUC1kL5Y"
-                },
-                {
-                    "name": "讚美之泉 22 - 我渴望看見",
-                    "youtubeId": "uRmDdvNJ4hc"
-                }
-            ]
-        },
-        {
-            "subTitle": "2023/9/10",
-            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/270597432440127/",
-            "songs": [
-                {
-                    "name": "讚美之泉 15 - 我要全心讚美",
-                    "youtubeId": "Bs-pQZ9b0OU"
-                },
-                {
-                    "name": "讚美之泉 25 - 偉大的神",
-                    "youtubeId": "G8dbdA21f2M"
-                },
-                {
-                    "name": "天堂敬拜 - 盼望聖靈",
-                    "youtubeId": "VLGTCr1uv30"
-                }
-            ]
-        },
-        {
-            "subTitle": "其他",
-            "subTitleUrl": "",
-            "songs": [
-                {
-                    "name": "讚美之泉 18 - 齊來讚美",
-                    "youtubeId": "x--7r9JdMWM"
                 }
             ]
         }
