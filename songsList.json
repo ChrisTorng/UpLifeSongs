@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2023/10/29",
+            "subTitle": "2023/11/5",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 25 - 得勝的宣告",
+                    "youtubeId": "h5YPo_MmBds"
+                },
+                {
+                    "name": "讚美之泉 21 - 為愛而生",
+                    "youtubeId": "hSYtcWLUcI8"
+                }
+            ]
+        },
+        {
+            "subTitle": "2023/10/29",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1545331849204261",
             "songs": [
                 {
                     "name": "約書亞 - 你是全能神",
