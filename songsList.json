@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2023/11/5",
+            "subTitle": "2023/11/12",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "新店行道會 - A Burning Heart",
+                    "youtubeId": "qRVuLtXP7-c"
+                },
+                {
+                    "name": "CCMN - 主 我願意",
+                    "youtubeId": "35GWprGH8eI"
+                }
+            ]
+        },
+        {
+            "subTitle": "2023/11/5",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1030330001583084/",
             "songs": [
                 {
                     "name": "讚美之泉 25 - 得勝的宣告",
