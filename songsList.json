@@ -3,8 +3,26 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2023/11/12",
+            "subTitle": "2023/11/26",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "天韻 - 生命的更新",
+                    "youtubeId": "MRWLrKVsDCE"
+                },
+                {
+                    "name": "CHC - 當祢找到我",
+                    "youtubeId": "e9bUNS7q57M"
+                },
+                {
+                    "name": "天韻 - 你可以再活一次",
+                    "youtubeId": "FKPnnw7thxs"
+                }
+            ]
+        },
+        {
+            "subTitle": "2023/11/12",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1743708856145816/",
             "songs": [
                 {
                     "name": "新店行道會 - A Burning Heart",
