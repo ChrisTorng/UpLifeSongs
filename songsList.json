@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2023/12/3",
+            "subTitle": "2023/12/10",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "約書亞 - 被造的意義",
+                    "youtubeId": "2zXKhHneoIk"
+                },
+                {
+                    "name": "JESUS FASHION - 凡事都有可能",
+                    "youtubeId": "_3mG8SU9VTA"
+                }
+            ]
+        },
+        {
+            "subTitle": "2023/12/3",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1084935062525625/",
             "songs": [
                 {
                     "name": "讚美之泉 28 - 是耶穌的名",
@@ -18,7 +32,7 @@
         },
         {
             "subTitle": "2023/11/26",
-            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/884438760005756/",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1084935062525625/",
             "songs": [
                 {
                     "name": "天韻 - 生命的更新",
