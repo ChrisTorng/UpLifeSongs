@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2023/12/10",
+            "subTitle": "2023/12/17",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 24 - 大山為我挪開",
+                    "youtubeId": "_xJkYVZ50p0"
+                },
+                {
+                    "name": "約書亞璽恩 - 我唯一渴望",
+                    "youtubeId": "3GHnpm2YrW4"
+                }
+            ]
+        },
+        {
+            "subTitle": "2023/12/10",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/657245176485534/",
             "songs": [
                 {
                     "name": "約書亞 - 被造的意義",
