@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/1/7",
+            "subTitle": "2024/1/4",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "生命河 6 - 恩典已降臨",
+                    "youtubeId": "r6Jxsl03jwU"
+                },
+                {
+                    "name": "約書亞 - 降服得生命",
+                    "youtubeId": "ikj7QzdEX_Q"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/1/7",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/2242904842567114/",
             "songs": [
                 {
                     "name": "讚美之泉 28 - 是耶穌的名",
