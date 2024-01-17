@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/1/4",
+            "subTitle": "2024/1/21",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 27 - 在祢沒有難成的事",
+                    "youtubeId": "3QSUYtAcJjk"
+                },
+                {
+                    "name": "約書亞 - 敬畏的心",
+                    "youtubeId": "VMjI8vGZLm4"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/1/14",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/312341584547160/",
             "songs": [
                 {
                     "name": "生命河 6 - 恩典已降臨",
