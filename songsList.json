@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/1/28",
+            "subTitle": "2024/2/4",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "生命河 5 - 眾城門抬起頭",
+                    "youtubeId": "37HEh6sSiWU"
+                },
+                {
+                    "name": "讚美之泉 28 - 敬拜耶穌",
+                    "youtubeId": "fchrOQRH0UY"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/1/28",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1774183889769074",
             "songs": [
                 {
                     "name": "約書亞 7 - 無人能與你相比",
@@ -18,7 +32,7 @@
         },
         {
             "subTitle": "2024/1/21",
-            "subTitleUrl": "",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/661804065920881/",
             "songs": [
                 {
                     "name": "讚美之泉 27 - 在祢沒有難成的事",
