@@ -3,8 +3,26 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/2/4",
+            "subTitle": "2024/2/25",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "跨越 - 因著祢恩典mp3",
+                    "youtubeId": "1twbiiOpm2U"
+                },
+                {
+                    "name": "約書亞 - 堅強的愛",
+                    "youtubeId": "HxSY1b_QNPY"
+                },
+                {
+                    "name": "",
+                    "youtubeId": ""
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/2/4",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/7090023437718519/",
             "songs": [
                 {
                     "name": "生命河 5 - 眾城門抬起頭",
