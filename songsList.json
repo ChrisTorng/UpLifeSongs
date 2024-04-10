@@ -3,8 +3,22 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/3/31",
+            "subTitle": "2024/4/14",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "新生命 - Turn it up 高聲唱",
+                    "youtubeId": "d4Gk89VACzA"
+                },
+                {
+                    "name": "約書亞×火把 - 勝過這世界／永恆的獎賞／我們獻上",
+                    "youtubeId": "0-ExBTJIowY"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/3/31",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/400088052747137",
             "songs": [
                 {
                     "name": "約書亞 - 無可取代",
