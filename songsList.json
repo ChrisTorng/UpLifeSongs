@@ -3,8 +3,26 @@
     "titleUrl" : "https://m.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/4/14",
+            "subTitle": "2024/4/21",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "生命河 - 敞開心不停讚美",
+                    "youtubeId": "_LnooGriCuE"
+                },
+                {
+                    "name": "火把音樂 - 奪回這世代",
+                    "youtubeId": "Ffb1YlNp_5w"
+                },
+                {
+                    "name": "火把音樂 - 永不回頭",
+                    "youtubeId": "VnlKLjVaOmo"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/4/14",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1133109294496184/",
             "songs": [
                 {
                     "name": "新生命 - Turn it up 高聲唱",
