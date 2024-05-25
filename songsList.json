@@ -1,6 +1,6 @@
 {
     "title": "UP 生命力教會",
-    "titleUrl" : "https://m.facebook.com/uplifepower/",
+    "titleUrl": "https://m.facebook.com/uplifepower/",
     "groups": [
         {
             "subTitle": "2024/5/26",
@@ -11,8 +11,8 @@
                     "youtubeId": "ROtqG5Zs7vI"
                 },
                 {
-                    "name": "約書亞 - 勝過這世界",
-                    "youtubeId": "O8f_KBtoPAU"
+                    "name": "旌旗教會 - 我的教會，我的生命",
+                    "youtubeId": "OEBEze3qrR0"
                 },
                 {
                     "name": "讚美之泉 18 - 從心合一",
@@ -177,6 +177,16 @@
                 {
                     "name": "因祢十架",
                     "youtubeId": "941inrZcMMo"
+                }
+            ]
+        },
+        {
+            "subTitle": "其他",
+            "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "約書亞 - 勝過這世界",
+                    "youtubeId": "O8f_KBtoPAU"
                 }
             ]
         }
