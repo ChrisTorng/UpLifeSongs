@@ -1,10 +1,32 @@
 {
     "title": "UP 生命力教會",
-    "titleUrl": "https://m.facebook.com/uplifepower/",
+    "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/6/2",
+            "subTitle": "2024/6/9",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "花蓮博愛浸信會 - 這一天裡",
+                    "youtubeId": "t9mrAehu9Po"
+                },
+                {
+                    "name": "讚美之泉 21 - 這是耶和華所定日子",
+                    "youtubeId": "HxxPSIOkTOY"
+                },
+                {
+                    "name": "讚美之泉 26 - 不動搖的信心",
+                    "youtubeId": "H9OdfU5I9yQ"
+                },
+                {
+                    "name": "大溪榮美教會 - 在祢沒有難成的事",
+                    "youtubeId": "xbnG_8iDoew"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/6/2",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1419270385398141",
             "songs": [
                 {
                     "name": "讚美之泉 15 - 我要全心讚美",
