@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/6/23",
+            "subTitle": "2024/6/30",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "大衛帳幕的榮耀 - 為主來歡唱",
+                    "youtubeId": "iIRkFbtBH60"
+                },
+                {
+                    "name": "讚美之泉 27 - 我是承載神榮耀的器皿",
+                    "youtubeId": "Z3RbUC1kL5Y"
+                },
+                {
+                    "name": "TC Worship - 使我有你的榮美+一切全獻上",
+                    "youtubeId": "udVl_aANE5w"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/6/23",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/820080290097667/",
             "songs": [
                 {
                     "name": "約書亞×曾晨恩 - 美好事",
