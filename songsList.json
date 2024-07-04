@@ -3,8 +3,30 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/6/30",
+            "subTitle": "2024/7/7",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "新生命小組教會 - 高聲唱",
+                    "youtubeId": "d4Gk89VACzA"
+                },
+                {
+                    "name": "大衛帳幕的榮耀 4 - 我全心倚靠你",
+                    "youtubeId": "-5JyHbgezc4"
+                },
+                {
+                    "name": "Revival Camp - 起初命定",
+                    "youtubeId": "kvdYWLQmYR4"
+                },
+                {
+                    "name": "TRC ORIGINALS - 起初命定",
+                    "youtubeId": "GAuZVZqVwLY"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/6/30",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/963350168908269/",
             "songs": [
                 {
                     "name": "大衛帳幕的榮耀 - 為主來歡唱",
