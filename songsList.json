@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/7/21",
+            "subTitle": "2024/7/28",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "以斯拉 - 至高全能神的榮光",
+                    "youtubeId": "dafXeI5KsdY"
+                },
+                {
+                    "name": "城市豐收 - 為祢而活",
+                    "youtubeId": "PAyskjQda34"
+                },
+                {
+                    "name": "台北復興堂 - 單單敬拜祢",
+                    "youtubeId": "bBSCHfZG0VA"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/7/21",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1005110244260358",
             "songs": [
                 {
                     "name": "約書亞×周巽光 - 生命真光",
