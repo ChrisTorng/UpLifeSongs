@@ -3,8 +3,30 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/8/4",
+            "subTitle": "2024/8/11",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "約書亞×陳州邦 - 因為祢真好",
+                    "youtubeId": "-CYEa79YLlw"
+                },
+                {
+                    "name": "大衛帳幕的榮耀 - 耶穌對我真好",
+                    "youtubeId": "5e33rFqjZxk"
+                },
+                {
+                    "name": "城市豐收 - 不放手",
+                    "youtubeId": "7C2-vYKB_4Q"
+                },
+                {
+                    "name": "KUA - 因你聖名我們敬拜",
+                    "youtubeId": "18Kaj0JHei8"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/8/4",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/453048957569785/",
             "songs": [
                 {
                     "name": "Jesus Fashion 2.0 - 進入應許之地",
