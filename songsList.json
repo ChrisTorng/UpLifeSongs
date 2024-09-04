@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/9/1",
+            "subTitle": "2024/9/8",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 29 - 我選擇喜樂",
+                    "youtubeId": "hfNEM3uJfYc"
+                },
+                {
+                    "name": "讚美之泉 19 - 永恆唯一的盼望",
+                    "youtubeId": "0JjM9JBIjmg"
+                },
+                {
+                    "name": "約書亞×璽恩 - 祢寶血為我而流",
+                    "youtubeId": "9bzppqUDtsE"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/9/1",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1189215615469699/",
             "songs": [
                 {
                     "name": "CCMN - 勇敢愛",
