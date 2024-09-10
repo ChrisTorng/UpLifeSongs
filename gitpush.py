@@ -1,6 +1,5 @@
 import json
 import subprocess
-import os
 
 def run_command(command):
     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
@@ -20,7 +19,7 @@ def main():
     commit_message = f"Add {sub_title} songs."
 
     # Wait for user input
-    input(f"Press any key to git add/commit \"{commit_message}\"...")
+    input(f"Press Enter to git add/commit \"{commit_message}\"...")
 
     # Git add
     run_command('git add .')
@@ -32,7 +31,7 @@ def main():
         print("Commit error:", error)
 
     # Wait for user input
-    input("Press any key to push changes...")
+    input("Press Enter to push changes...")
 
     # Git push
     output, error = run_command('git push')
