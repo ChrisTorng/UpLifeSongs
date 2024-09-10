@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/9/8",
+            "subTitle": "2024/9/15",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "天韻 - 歡然獻祭",
+                    "youtubeId": "2_oSWDTwB3s"
+                },
+                {
+                    "name": "讚美之泉 11P - 這世代",
+                    "youtubeId": "1MFGUd12VDo"
+                },
+                {
+                    "name": "約書亞×璽恩 - 如祢",
+                    "youtubeId": "kMOg8x7ptz4"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/9/8",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/496185113127157/",
             "songs": [
                 {
                     "name": "讚美之泉 29 - 我選擇喜樂",
