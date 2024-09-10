@@ -8,6 +8,11 @@ def load_songs_list():
     return data['groups'][0]['songs']
 
 def download_song(youtube_id, name):
+    # 檢查資料夾是否已存在
+    if os.path.exists(name):
+        print(f"Folder '{name}' already exists. Skipping download.")
+        return
+
     command = ['python', 'yt2mp3.py', youtube_id, name]
     try:
         subprocess.run(command, check=True)
