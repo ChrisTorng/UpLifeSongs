@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/9/15",
+            "subTitle": "2024/9/22",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 21 - 這是耶和華所定日子",
+                    "youtubeId": "HxxPSIOkTOY"
+                },
+                {
+                    "name": "JESUS FASHION - 興起的時刻",
+                    "youtubeId": "3VGiEhtUXKA"
+                },
+                {
+                    "name": "樂筆手寫歌詞 - 一生火熱",
+                    "youtubeId": "juGcvilwATE"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/9/15",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/381295095051938/",
             "songs": [
                 {
                     "name": "天韻 - 歡然獻祭",
