@@ -19,7 +19,7 @@ def main():
     commit_message = f"Add {sub_title} songs."
 
     # Wait for user input
-    input(f"Press Enter to git add/commit \"{commit_message}\"...")
+    input(f"Press Enter to git add/commit/push \"{commit_message}\"...")
 
     # Git add
     run_command('git add .')
@@ -29,9 +29,6 @@ def main():
     print("Commit output:", output)
     if error:
         print("Commit error:", error)
-
-    # Wait for user input
-    input("Press Enter to push changes...")
 
     # Git push
     output, error = run_command('git push')
