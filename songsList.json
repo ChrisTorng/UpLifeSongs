@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/10/6",
+            "subTitle": "2024/10/13",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "火把音樂 - 興起興起",
+                    "youtubeId": "SmB0tx-JLDs"
+                },
+                {
+                    "name": "讚美之泉 22 - 我渴望看見",
+                    "youtubeId": "uRmDdvNJ4hc"
+                },
+                {
+                    "name": "約書亞×馬永蒂 - 齊心合一",
+                    "youtubeId": "0bCghGLVVfA"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/10/6",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/458557413881597",
             "songs": [
                 {
                     "name": "CCMN - 得勝得勝",
