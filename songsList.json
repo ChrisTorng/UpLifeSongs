@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/10/13",
+            "subTitle": "2024/10/20",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "生命河 6 - 敞開心，不停讚美",
+                    "youtubeId": "d1PJ7ZpkFHo"
+                },
+                {
+                    "name": "讚美之泉 25 - 得勝的宣告",
+                    "youtubeId": "1GtjzGdw-Ao"
+                },
+                {
+                    "name": "新店行道會 - 點燃",
+                    "youtubeId": "6EyYvHKeUOo"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/10/13",
+            "subTitleUrl": "https://www.facebook.com/100064596465679/videos/466059653148809",
             "songs": [
                 {
                     "name": "火把音樂 - 興起興起",
