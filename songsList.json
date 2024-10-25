@@ -7,12 +7,12 @@
             "subTitleUrl": "",
             "songs": [
                 {
-                    "name": "讚美之泉 21 - 為愛而生",
-                    "youtubeId": "hSYtcWLUcI8"
-                },
-                {
                     "name": "Jesus Fashion 2.0 - 進入應許之地",
                     "youtubeId": "X2PnBVDZNws"
+                },
+                {
+                    "name": "讚美之泉 21 - 為愛而生",
+                    "youtubeId": "hSYtcWLUcI8"
                 }
             ]
         }
