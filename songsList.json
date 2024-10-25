@@ -1,5 +1,16 @@
 {
     "title": "UP 生命力教會",
     "titleUrl": "https://www.facebook.com/uplifepower/",
-    "groups": []
+    "groups": [
+        {
+            "subTitle": "2024/10/27",
+            "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 21 - 為愛而生",
+                    "youtubeId": "hSYtcWLUcI8"
+                }
+            ]
+        }
+    ]
 }
