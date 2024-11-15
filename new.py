@@ -47,6 +47,30 @@ def get_video_info(url):
             print(f"錯誤: 無法獲取 URL '{url}' 的資訊。錯誤訊息: {e}")
             return None, None
 
+def get_playlist_videos(playlist_url):
+    """
+    使用 yt_dlp 獲取播放清單中的所有影片資訊。
+    """
+    ydl_opts = {
+        'quiet': True,
+        'skip_download': True,
+        'no_warnings': True,
+    }
+    videos = []
+    with YoutubeDL(ydl_opts) as ydl:
+        try:
+            info = ydl.extract_info(playlist_url, download=False)
+            if 'entries' in info:
+                for entry in info['entries']:
+                    video_id = entry.get('id')
+                    title = entry.get('title')
+                    if video_id and title:
+                        videos.append({'id': video_id, 'title': title})
+            return videos
+        except Exception as e:
+            print(f"錯誤: 無法獲取播放清單 '{playlist_url}' 的資訊。錯誤訊息: {e}")
+            return []
+
 def load_json(file_path):
     if not os.path.exists(file_path):
         print(f"錯誤: 檔案 {file_path} 不存在。")
@@ -60,9 +84,9 @@ def save_json(data, file_path):
     print(f"已成功更新 {file_path}。")
 
 def main():
-    parser = argparse.ArgumentParser(description='新增 YouTube 影片至 songsList.json。')
+    parser = argparse.ArgumentParser(description='新增 YouTube 影片或播放清單至 songsList.json。')
     parser.add_argument('urls', metavar='URL', type=str, nargs='+',
-                        help='YouTube 影片的 URL')
+                        help='YouTube 影片或播放清單的 URL')
     args = parser.parse_args()
 
     # 取得目前腳本的絕對路徑
@@ -93,20 +117,36 @@ def main():
 
     # 處理每個 YouTube URL
     for url in args.urls:
-        video_id, title = get_video_info(url)
-        if not video_id or not title:
-            print(f"警告: 無法從 URL '{url}' 中提取視頻 ID 或標題，將跳過此 URL。")
-            continue
+        if "playlist" in url:  # 檢測是否為播放清單
+            print(f"檢測到播放清單 URL: {url}")
+            videos = get_playlist_videos(url)
+            for video in videos:
+                video_id = video['id']
+                title = video['title']
+                if any(song.get('youtubeId') == video_id for song in group['songs']):
+                    print(f"警告: youtubeId '{video_id}' 已存在於 group '{next_sunday}'，將跳過。")
+                    continue
+                song_entry = {
+                    "name": title,
+                    "youtubeId": video_id
+                }
+                group['songs'].append(song_entry)
+                print(f"新增播放清單影片: {title} (ID: {video_id})")
+        else:
+            video_id, title = get_video_info(url)
+            if not video_id or not title:
+                print(f"警告: 無法從 URL '{url}' 中提取視頻 ID 或標題，將跳過此 URL。")
+                continue
         # 檢查是否已存在相同的 youtubeId
-        if any(song.get('youtubeId') == video_id for song in group['songs']):
-            print(f"警告: youtubeId '{video_id}' 已存在於 group '{next_sunday}'，將跳過。")
-            continue
-        song_entry = {
-            "name": title,
-            "youtubeId": video_id
-        }
-        group['songs'].append(song_entry)
-        print(f"新增歌曲: {title} (ID: {video_id})")
+            if any(song.get('youtubeId') == video_id for song in group['songs']):
+                print(f"警告: youtubeId '{video_id}' 已存在於 group '{next_sunday}'，將跳過。")
+                continue
+            song_entry = {
+                "name": title,
+                "youtubeId": video_id
+            }
+            group['songs'].append(song_entry)
+            print(f"新增歌曲: {title} (ID: {video_id})")
 
     # 更新 JSON 結構
     data['groups'] = groups

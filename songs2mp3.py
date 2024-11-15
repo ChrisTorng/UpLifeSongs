@@ -1,6 +1,49 @@
 import json
-import subprocess
 import os
+from yt_dlp import YoutubeDL
+
+class MyLogger:
+    def debug(self, msg):
+        pass
+
+    def warning(self, msg):
+        pass
+
+    def error(self, msg):
+        print(f"Error: {msg}")
+
+def my_hook(d):
+    if d['status'] == 'finished':
+        print(f"Starting conversion: {d['filename']}")
+
+def download_mp3(youtube_id, custom_filename=None):
+    url = f'https://www.youtube.com/watch?v={youtube_id}' if not youtube_id.startswith('http') else youtube_id
+
+    ydl_opts = {
+        'format': 'bestaudio/best',
+        'postprocessors': [{
+            'key': 'FFmpegExtractAudio',
+            'preferredcodec': 'mp3',
+            'preferredquality': '192',
+        }],
+        'outtmpl': {
+            'default': '%(title)s.%(ext)s' if not custom_filename else f'{custom_filename}.%(ext)s'
+        },
+        'prefer_ffmpeg': True,
+        'logger': MyLogger(),
+        'progress_hooks': [my_hook],
+        'quiet': True,
+    }
+    
+    with YoutubeDL(ydl_opts) as ydl:
+        try:
+            info = ydl.extract_info(url, download=False)
+            title = custom_filename or info['title']
+            print(f"Starting download: {title}")
+            ydl.download([url])
+        except Exception as e:
+            print(f'Download failed: {url}')
+            print(f'Error: {str(e)}')
 
 def load_songs_list():
     with open('songsList.json', 'r', encoding='utf-8') as file:
@@ -8,17 +51,10 @@ def load_songs_list():
     return data['groups'][0]['songs']
 
 def download_song(youtube_id, name):
-    # 檢查資料夾是否已存在
-    if os.path.exists(name):
-        print(f"Folder '{name}' already exists. Skipping download.")
+    if os.path.exists(f"{name}.mp3"):
+        print(f"File '{name}.mp3' already exists. Skipping download.")
         return
-
-    command = ['python', 'yt2mp3.py', youtube_id, name]
-    try:
-        subprocess.run(command, check=True)
-        print(f"Successfully downloaded: {name}")
-    except subprocess.CalledProcessError:
-        print(f"Failed to download: {name}")
+    download_mp3(youtube_id, name)
 
 def main():
     songs = load_songs_list()
