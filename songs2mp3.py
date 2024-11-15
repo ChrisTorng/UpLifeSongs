@@ -51,9 +51,17 @@ def load_songs_list():
     return data['groups'][0]['songs']
 
 def download_song(youtube_id, name):
+    # 檢查 MP3 檔案是否存在
     if os.path.exists(f"{name}.mp3"):
         print(f"File '{name}.mp3' already exists. Skipping download.")
         return
+
+    # 檢查資料夾是否存在
+    if os.path.exists(name) and os.path.isdir(name):
+        print(f"Folder '{name}' already exists. Skipping download.")
+        return
+
+    # 若上述條件均不符合，執行下載
     download_mp3(youtube_id, name)
 
 def main():

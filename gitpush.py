@@ -18,20 +18,30 @@ def main():
     # Prepare the commit message
     commit_message = f"Add {sub_title} songs."
 
-    # Wait for user input
-    input(f"Press Enter to git add/commit/push \"{commit_message}\"...")
+    # Step 1: Sync with the remote branch
+    print("Syncing with the remote branch...")
+    output, error = run_command('git pull origin main --rebase')
+    print("Pull output:", output)
+    if error:
+        print("Pull error:", error)
+        if "conflict" in error.lower():
+            print("Conflict detected. Please resolve conflicts manually and re-run the script.")
+        return
 
-    # Git add
+    # Step 2: Stage changes
+    print("Staging changes...")
     run_command('git add .')
 
-    # Git commit
+    # Step 3: Commit changes
+    print("Committing changes...")
     output, error = run_command(f'git commit -m "{commit_message}"')
     print("Commit output:", output)
     if error:
         print("Commit error:", error)
 
-    # Git push
-    output, error = run_command('git push')
+    # Step 4: Push changes
+    print("Pushing changes to remote...")
+    output, error = run_command('git push origin main')
     print("Push output:", output)
     if error:
         print("Push error:", error)
