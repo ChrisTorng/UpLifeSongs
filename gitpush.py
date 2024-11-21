@@ -1,3 +1,4 @@
+import json
 import subprocess
 
 def run_command(command):
@@ -22,10 +23,29 @@ def git_sync():
     # 如果有未提交的更改，自動提交
     if output.strip():
         print("Changes detected. Staging and committing...")
+
+        # Read the JSON file
+        with open('songsList.json', 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        # Get the first group
+        first_group = data['groups'][0]
+        sub_title = first_group['subTitle']
+
+        # Prepare the commit message
+        commit_message = f"Add {sub_title} songs."
+
+        # Wait for user input
+        input(f"Press Enter to git add/commit/push \"{commit_message}\"...")
+
         run_command("git add .")
         commit_message = "Auto-sync changes"
-        run_command(f'git commit -m "{commit_message}"')
-        print("Changes committed.")
+
+        # Git commit
+        output, error = run_command(f'git commit -m "{commit_message}"')
+        print("Commit output:", output)
+        if error:
+            print("Commit error:", error)
 
     # 拉取遠端更改
     print("Pulling remote changes...")
