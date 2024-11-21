@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/11/17",
+            "subTitle": "2024/11/24",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "約書亞 - 凡事都有可能",
+                    "youtubeId": "9PrZ4ZgiSVU"
+                },
+                {
+                    "name": "火把音樂 - 奪回這世代",
+                    "youtubeId": "Ffb1YlNp_5w"
+                },
+                {
+                    "name": "讚美之泉 29 - 我能給你什麼",
+                    "youtubeId": "-papSSttSyE"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/11/17",
+            "subTitleUrl": "https://www.facebook.com/100064596465679/videos/1477820199551688",
             "songs": [
                 {
                     "name": "生命河 - 讓全地都聽見",
