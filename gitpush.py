@@ -7,7 +7,7 @@ def run_command(command):
     """
     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
     output, error = process.communicate()
-    return output.decode('big5'), error.decode('big5')
+    return output.decode('utf-8'), error.decode('utf-8')
 
 def git_sync():
     """
@@ -41,7 +41,7 @@ def git_sync():
         run_command("git add .")
 
         # Git commit
-        output, error = run_command(f'git commit -m "{commit_message}"')
+        output, error = run_command(f'git -c core.quotepath=false commit -m "{commit_message}"')
         print("Commit output:", output)
         if error:
             print("Commit error:", error)
