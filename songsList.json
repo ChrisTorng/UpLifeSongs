@@ -3,8 +3,30 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/12/1",
+            "subTitle": "2024/12/8",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 21 - 這是耶和華所定日子",
+                    "youtubeId": "Vov9BiKB9Zw"
+                },
+                {
+                    "name": "讚美之泉 11P - 揀選",
+                    "youtubeId": "FynX-Z87vJU"
+                },
+                {
+                    "name": "大衛帳幕的榮耀 約書亞×陳州邦 - 傾倒我全所有",
+                    "youtubeId": "gjQ56VB8Rs4"
+                },
+                {
+                    "name": "大衛帳幕的榮耀 - 傾倒我全所有",
+                    "youtubeId": "clm2q1LI23I"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/12/1",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1248575903023681",
             "songs": [
                 {
                     "name": "讚美之泉 29 - 好喜歡與你在一起",
