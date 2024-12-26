@@ -3,8 +3,22 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2024/12/15",
+            "subTitle": "2024/12/29",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 20 - 新的事將要成就",
+                    "youtubeId": "kszbPoctPbo"
+                },
+                {
+                    "name": "讚美之泉 14 - 恩典之路",
+                    "youtubeId": "YaJ5gof0YNQ"
+                }
+            ]
+        },
+        {
+            "subTitle": "2024/12/15",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/514603324937257",
             "songs": [
                 {
                     "name": "中壢喜樂教會 - 去去記住去",
@@ -22,7 +36,7 @@
         },
         {
             "subTitle": "2024/12/8",
-            "subTitleUrl": "https://www.facebook.com/100064596465679/videos/1821001291971880",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1821001291971880",
             "songs": [
                 {
                     "name": "讚美之泉 21 - 這是耶和華所定日子",
@@ -66,7 +80,7 @@
         },
         {
             "subTitle": "2024/11/24",
-            "subTitleUrl": "https://www.facebook.com/100064596465679/videos/3844991839074338",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/3844991839074338",
             "songs": [
                 {
                     "name": "約書亞 - 凡事都有可能",
@@ -84,7 +98,7 @@
         },
         {
             "subTitle": "2024/11/17",
-            "subTitleUrl": "https://www.facebook.com/100064596465679/videos/1477820199551688",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1477820199551688",
             "songs": [
                 {
                     "name": "生命河 - 讓全地都聽見",
@@ -124,7 +138,7 @@
         },
         {
             "subTitle": "2024/11/3",
-            "subTitleUrl": "https://www.facebook.com/100064596465679/videos/8664897223575893",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/8664897223575893",
             "songs": [
                 {
                     "name": "大衛帳幕的榮耀 - 上帝能夠",
@@ -134,7 +148,7 @@
         },
         {
             "subTitle": "2024/10/27",
-            "subTitleUrl": "https://www.facebook.com/100064596465679/videos/1277921106552291",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1277921106552291",
             "songs": [
                 {
                     "name": "Jesus Fashion 2.0 - 進入應許之地",
