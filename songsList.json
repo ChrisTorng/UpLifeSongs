@@ -3,8 +3,22 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/1/5",
+            "subTitle": "2025/1/12",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 25 - 得勝的宣告",
+                    "youtubeId": "h5YPo_MmBds"
+                },
+                {
+                    "name": "讚美之泉 27 - 我心堅定於祢",
+                    "youtubeId": "MAorTjzpVw0"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/1/5",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1057386172823966",
             "songs": [
                 {
                     "name": "約書亞×Gateway - 讚美",
