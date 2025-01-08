@@ -83,6 +83,53 @@ def save_json(data, file_path):
         json.dump(data, f, ensure_ascii=False, indent=4)
     print(f"已成功更新 {file_path}。")
 
+def find_existing_song_name(youtube_id, current_file_path):
+    """
+    在當前和備份檔案中尋找相同 youtubeId 的歌曲名稱
+    回傳: (歌名, 來源檔案路徑, 來源資料夾名稱, 來源日期) 或 (None, None, None, None)
+    """
+    paths = [
+        current_file_path,
+        "D:\\Projects\\GitHub\\ChrisTorng\\UpLifeSongsBackup2\\songsList.json",
+        "D:\\Projects\\GitHub\\ChrisTorng\\UpLifeSongsBackup\\songsList.json"
+    ]
+
+    for path in paths:
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                for group in data.get('groups', []):
+                    for song in group.get('songs', []):
+                        if song.get('youtubeId') == youtube_id:
+                            folder_name = os.path.basename(os.path.dirname(path))
+                            return song.get('name'), path, folder_name, group.get('subTitle')
+        except Exception as e:
+            print(f"警告: 讀取 {path} 時發生錯誤: {e}")
+    return None, None, None, None
+
+def copy_song_folder(song_name, source_path, current_path):
+    """
+    複製歌曲資料夾從來源目錄到當前目錄
+    """
+    if source_path == current_path:
+        return  # 如果是當前目錄找到的，不需要複製
+
+    source_dir = os.path.dirname(source_path)
+    target_dir = os.path.dirname(current_path)
+    
+    source_folder = os.path.join(source_dir, song_name)
+    target_folder = os.path.join(target_dir, song_name)
+
+    if os.path.exists(source_folder) and not os.path.exists(target_folder):
+        try:
+            import shutil
+            shutil.copytree(source_folder, target_folder)
+            print(f"已複製資料夾: {source_folder} -> {target_folder}")
+        except Exception as e:
+            print(f"警告: 複製資料夾失敗: {e}")
+
 def main():
     parser = argparse.ArgumentParser(description='新增 YouTube 影片或播放清單至 songsList.json。')
     parser.add_argument('urls', metavar='URL', type=str, nargs='+',
@@ -122,31 +169,48 @@ def main():
             videos = get_playlist_videos(url)
             for video in videos:
                 video_id = video['id']
-                title = video['title']
                 if any(song.get('youtubeId') == video_id for song in group['songs']):
                     print(f"警告: youtubeId '{video_id}' 已存在於 group '{next_sunday}'，將跳過。")
                     continue
+                
+                # 尋找既有的歌名和來源
+                existing_name, source_path, source_folder, source_date = find_existing_song_name(video_id, json_path)
+                song_name = existing_name if existing_name else video['title']
+                
+                if existing_name and source_path:
+                    copy_song_folder(existing_name, source_path, json_path)
+                    print(f"複製自 {source_folder} 的 {source_date}")
+
                 song_entry = {
-                    "name": title,
+                    "name": song_name,
                     "youtubeId": video_id
                 }
                 group['songs'].append(song_entry)
-                print(f"新增播放清單影片: {title} (ID: {video_id})")
+                print(f"新增播放清單影片: {song_name} (ID: {video_id})")
         else:
             video_id, title = get_video_info(url)
             if not video_id or not title:
                 print(f"警告: 無法從 URL '{url}' 中提取視頻 ID 或標題，將跳過此 URL。")
                 continue
-        # 檢查是否已存在相同的 youtubeId
+
             if any(song.get('youtubeId') == video_id for song in group['songs']):
                 print(f"警告: youtubeId '{video_id}' 已存在於 group '{next_sunday}'，將跳過。")
                 continue
+
+            # 尋找既有的歌名和來源
+            existing_name, source_path, source_folder, source_date = find_existing_song_name(video_id, json_path)
+            song_name = existing_name if existing_name else title
+            
+            if existing_name and source_path:
+                copy_song_folder(existing_name, source_path, json_path)
+                print(f"複製自 {source_folder} 的 {source_date}")
+
             song_entry = {
-                "name": title,
+                "name": song_name,
                 "youtubeId": video_id
             }
             group['songs'].append(song_entry)
-            print(f"新增歌曲: {title} (ID: {video_id})")
+            print(f"新增歌曲: {song_name} (ID: {video_id})")
 
     # 更新 JSON 結構
     data['groups'] = groups
