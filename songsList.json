@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/1/12",
+            "subTitle": "2025/1/19",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉兒童 13 - 是耶穌的名",
+                    "youtubeId": "cOdOdmjtSlg"
+                },
+                {
+                    "name": "Gateway - 活著屬於你",
+                    "youtubeId": "cRnLKEHfsMc"
+                },
+                {
+                    "name": "大衛帳幕的榮耀 - 耶和華拯救",
+                    "youtubeId": "oO4WzERyb1w"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/1/12",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/546167321801116",
             "songs": [
                 {
                     "name": "讚美之泉 26 - 不動搖的信心",
