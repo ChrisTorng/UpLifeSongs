@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/1/19",
+            "subTitle": "2025/1/26",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 29 - 大聲敬拜",
+                    "youtubeId": "l-QB8A5vJbM"
+                },
+                {
+                    "name": "讚美之泉 29 - 耶和華是應當稱頌的",
+                    "youtubeId": "M8F3BZ_vjWI"
+                },
+                {
+                    "name": "約書亞×曹之懿 - 祝福之地",
+                    "youtubeId": "sKNhJVsGH80"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/1/19",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/952104289838978",
             "songs": [
                 {
                     "name": "讚美之泉兒童 13 - 是耶穌的名",
