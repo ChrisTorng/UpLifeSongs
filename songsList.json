@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/1/26",
+            "subTitle": "2025/2/9",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "新酒－約書亞樂團",
+                    "youtubeId": "4F4E-h1vz5k"
+                },
+                {
+                    "name": "HTBB 敬拜 - 奇妙作為",
+                    "youtubeId": "TdHbrogLOXY"
+                },
+                {
+                    "name": "YERAM WORSHIP - 主我神",
+                    "youtubeId": "OzvpwvKCkpM"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/1/26",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/585051610954925/",
             "songs": [
                 {
                     "name": "讚美之泉 29 - 大聲敬拜",
