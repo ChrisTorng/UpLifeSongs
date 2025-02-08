@@ -19,8 +19,8 @@
                     "youtubeId": "OzvpwvKCkpM"
                 },
                 {
-                    "name": "中壢喜樂教會 - 去去記住去",
-                    "youtubeId": "U7TfOKCOQEw"
+                    "name": "讚美之泉 9 - 看見復興",
+                    "youtubeId": "zb_ykrrL4Ow"
                 }
             ]
         },
@@ -251,6 +251,16 @@
                 {
                     "name": "讚美之泉 21 - 為愛而生",
                     "youtubeId": "hSYtcWLUcI8"
+                }
+            ]
+        },
+        {
+            "subTitle": "其他",
+            "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "中壢喜樂教會 - 去去記住去",
+                    "youtubeId": "U7TfOKCOQEw"
                 }
             ]
         }
