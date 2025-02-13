@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/2/9",
+            "subTitle": "2025/2/16",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 2024 聖誕 - 明亮晨星",
+                    "youtubeId": "6PoQuZN1L9A"
+                },
+                {
+                    "name": "CCMNTaiwan - 擁抱",
+                    "youtubeId": "br-wqB8vJkE"
+                },
+                {
+                    "name": "約書亞×火把音樂×陳州邦 - 永不回頭",
+                    "youtubeId": "ZSi_jCjGmAs"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/2/9",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1148631226196362",
             "songs": [
                 {
                     "name": "新酒－約書亞樂團",
@@ -266,7 +284,7 @@
                     "name": "讚美之泉 9 - 看見復興",
                     "youtubeId": "zb_ykrrL4Ow"
                 }
-           ]
+            ]
         }
     ]
 }
