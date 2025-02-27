@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/2/23",
+            "subTitle": "2025/3/2",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "約書亞×曾晨恩 - 美好事",
+                    "youtubeId": "qBLN_tJX3cA"
+                },
+                {
+                    "name": "讚美之泉 27 - 爭戰得勝在於祢",
+                    "youtubeId": "jSOLchYQdoQ"
+                },
+                {
+                    "name": "大衛帳幕的榮耀×曹婉甄 - 與祢更靠近",
+                    "youtubeId": "iz32XOGh27g"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/2/23",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/644400421574740",
             "songs": [
                 {
                     "name": "CROSSMAN - 這是耶和華所定日子",
