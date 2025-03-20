@@ -41,6 +41,18 @@
       1. 若無 4GB VRAM 以上 GPU ，則 `pip install demucs --user`
       2. 若有，請詳細看各 OS 之安裝步驟
 
+         Windows 若已安裝 FFMpeg:
+         ```cmd
+         python -m venv .venv
+         .venv\Scripts\activate
+         pip install ffmpeg-python
+         pip install -U demucs SoundFile
+         pip install yt_dlp matplotlib pydub
+         # GPU VRA>=2G, 2.1.x is the latest supported version
+         pip install torch==2.1.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+         pip install numpy==1.26.4 #numpy<2
+         ```
+
     * [Ultimate Vocal Remover](https://github.com/anjok07/ultimatevocalremovergui) (Windows 圖形介面)
       1. 安裝完成後執行，選擇 mp3
       2. 左下扳手圖示 - Additional Settings - Mp3 Bitrate: 160k
