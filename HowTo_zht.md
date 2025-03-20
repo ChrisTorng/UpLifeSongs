@@ -48,7 +48,8 @@
          pip install ffmpeg-python
          pip install -U demucs SoundFile
          pip install yt_dlp matplotlib pydub
-         # GPU VRA>=2G, 2.1.x is the latest supported version
+
+         # 若 GPU VRAM >= 2G, torchaudio 最高支援到 2.1.x 版本
          pip install torch==2.1.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
          pip install numpy==1.26.4 #numpy<2
          ```
