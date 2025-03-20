@@ -3,16 +3,34 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/3/16",
+            "subTitle": "2025/3/23",
             "subTitleUrl": "",
             "songs": [
                 {
-                    "name": "The Hope - 在祢沒有難成的事",
-                    "youtubeId": "rUvwUc2_66s"
+                    "name": "約書亞×李曉茹 - 祢盼望掌權",
+                    "youtubeId": "Yd7I64WEw2c"
                 },
+                {
+                    "name": "大衛帳幕的榮耀 - 無人能與祢相比",
+                    "youtubeId": "L_ggLp6cZ10"
+                },
+                {
+                    "name": "約書亞×璽恩 - 主我神",
+                    "youtubeId": "dh_JyCY6-60"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/3/16",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1292951658456068",
+            "songs": [
                 {
                     "name": "CCMN - 勇敢愛",
                     "youtubeId": "4g2svRF87KE"
+                },
+                {
+                    "name": "The Hope - 在祢沒有難成的事",
+                    "youtubeId": "rUvwUc2_66s"
                 }
             ]
         },
