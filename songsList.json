@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/3/23",
+            "subTitle": "2025/3/30",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "約書亞 - 凡事都有可能",
+                    "youtubeId": "9PrZ4ZgiSVU"
+                },
+                {
+                    "name": "約書亞×馬勝恩×李曉茹 - 不要放棄",
+                    "youtubeId": "pwZ70fWwSA4"
+                },
+                {
+                    "name": "葡萄園×李翔 - 爭戰在於祢",
+                    "youtubeId": "I09z5XAGzSM"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/3/23",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/1160809685778038",
             "songs": [
                 {
                     "name": "約書亞×李曉茹 - 祢盼望掌權",
