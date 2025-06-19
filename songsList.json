@@ -3,15 +3,37 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/6/15",
+            "subTitle": "2025/6/22",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 30 - 不停讚美祢",
+                    "youtubeId": "RAacozf9irg"
+                },
+                {
+                    "name": "TC 真道教會 - 我渴望宣揚",
+                    "youtubeId": "XKhlHTrKP6k"
+                },
+                {
+                    "name": "我在這裡我願意",
+                    "youtubeId": "tkdkxfyo3Pw"
+                },
+                {
+                    "name": "KUA - 因你聖名我們敬拜",
+                    "youtubeId": "18Kaj0JHei8"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/6/15",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/736094025536547",
             "songs": [
                 {
                     "name": "新店行道會 - A Burning Heart",
                     "youtubeId": "8uMA-YGJDl4"
                 },
                 {
-                    "name": "2023 青吶特會約書亞樂團 - 我永遠相信／到應許之地／求祢充滿我／讓聖靈工作／我唯一渴望",
+                    "name": "2023 青吶 約書亞 - 我永遠相信／到應許之地／求祢充滿我／讓聖靈工作／我唯一渴望",
                     "youtubeId": "iFD9HclC9eo"
                 },
                 {
@@ -29,7 +51,7 @@
                     "youtubeId": "H9OdfU5I9yQ"
                 },
                 {
-                    "name": "新店行道會 Salt and Light",
+                    "name": "新店行道會 - Salt and Light",
                     "youtubeId": "XLkohOQEZ3U"
                 },
                 {
@@ -73,7 +95,7 @@
                     "youtubeId": "3UzdHlMMy_0"
                 },
                 {
-                    "name": "獻上生命 - 約書亞樂團",
+                    "name": "約書亞 - 獻上生命",
                     "youtubeId": "14vM6C3JLQw"
                 }
             ]
@@ -277,7 +299,7 @@
                     "youtubeId": "TdHbrogLOXY"
                 },
                 {
-                    "name": "YERAM WORSHIP - 主我神",
+                    "name": "約書亞 - 主我神",
                     "youtubeId": "OzvpwvKCkpM"
                 },
                 {
