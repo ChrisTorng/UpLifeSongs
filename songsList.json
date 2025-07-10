@@ -3,8 +3,30 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/6/22",
+            "subTitle": "2025/7/13",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "Gateway×約書亞×馬勝恩 - 獻上讚美祭",
+                    "youtubeId": "sQ3ao8-pH_M"
+                },
+                {
+                    "name": "讚美之泉 24 - 祢眼目必看顧這地",
+                    "youtubeId": "ShPPQxkkWBE"
+                },
+                {
+                    "name": "TC 真道教會 - 超乎萬有",
+                    "youtubeId": "F3NDtBKciKQ"
+                },
+                {
+                    "name": "TC 真道教會現場 - 超乎萬有",
+                    "youtubeId": "ABJXJdJw-F0"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/6/22",
+            "subTitleUrl": "https://www.facebook.com/uplifepower/videos/733419916307303",
             "songs": [
                 {
                     "name": "讚美之泉 30 - 不停讚美祢",
