@@ -21,7 +21,8 @@ def download_video(url, custom_filename=None):
         url = f'https://www.youtube.com/watch?v={url}'
 
     ydl_opts = {
-        'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+        'format': 'best[height<=1080]/bestvideo[height<=1080]+bestaudio/best',
+#        'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
         'outtmpl': {
             'default': '%(title)s.%(ext)s' if not custom_filename else f'{custom_filename}.%(ext)s'
         },

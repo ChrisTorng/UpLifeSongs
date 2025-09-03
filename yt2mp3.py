@@ -21,7 +21,8 @@ def download_mp3(url, custom_filename=None):
         url = f'https://www.youtube.com/watch?v={url}'
 
     ydl_opts = {
-        'format': 'bestaudio/best',
+#        'format': 'bestaudio/best',
+        'format': '234/233/best',  # 優先選擇高品質音訊，再選擇低品質音訊，最後選擇最佳格式
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',
             'preferredcodec': 'mp3',
