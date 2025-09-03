@@ -3,8 +3,26 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/8/31",
+            "subTitle": "2025/9/7",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "約書亞×趙治德 - 都指向祢",
+                    "youtubeId": "AKm7W0doYLI"
+                },
+                {
+                    "name": "城市豐收 - 跨越的信心",
+                    "youtubeId": "ROtqG5Zs7vI"
+                },
+                {
+                    "name": "火把音樂 - 唯獨倚靠祢",
+                    "youtubeId": "7zx6C7i2rfs"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/8/31",
+            "subTitleUrl": "https://www.youtube.com/watch?v=FPWlY9bHdAY",
             "songs": [
                 {
                     "name": "TC 真道教會 - 我渴望宣揚",
@@ -22,7 +40,7 @@
         },
         {
             "subTitle": "2025/8/17",
-            "subTitleUrl": "",
+            "subTitleUrl": "https://www.youtube.com/watch?v=n5MCT2Vxa8c",
             "songs": [
                 {
                     "name": "天父的喜悅 - 永遠住在祢的家",
