@@ -3,8 +3,30 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/9/7",
+            "subTitle": "2025/9/14",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "大衛帳幕的榮耀 - 我要全心稱頌我的主",
+                    "youtubeId": "MxT__4W4ufU"
+                },
+                {
+                    "name": "大衛帳幕的榮耀 4 - 我全心倚靠你",
+                    "youtubeId": "-5JyHbgezc4"
+                },
+                {
+                    "name": "約書亞×璽恩 - 信靠跟隨",
+                    "youtubeId": "t3EcMLaouMc"
+                },
+                {
+                    "name": "生命河 5 - 戰勝巨人的恩膏",
+                    "youtubeId": "Wm4C5aZobnk"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/9/7",
+            "subTitleUrl": "https://www.youtube.com/watch?v=n0vGhFnSz20",
             "songs": [
                 {
                     "name": "約書亞×趙治德 - 都指向祢",
