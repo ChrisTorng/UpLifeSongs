@@ -3,8 +3,22 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/9/14",
+            "subTitle": "2025/10/12",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 8 - 讓愛走動",
+                    "youtubeId": "glIEsTt2A84"
+                },
+                {
+                    "name": "讚美之泉 26 - 厚恩待我",
+                    "youtubeId": "U7ZNB-ShmNk"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/9/14",
+            "subTitleUrl": "https://www.youtube.com/watch?v=gLmcmdGZ-1E",
             "songs": [
                 {
                     "name": "大衛帳幕的榮耀 - 我要全心稱頌我的主",
