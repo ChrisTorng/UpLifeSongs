@@ -3,8 +3,22 @@
     "titleUrl": "https://www.facebook.com/uplifepower/",
     "groups": [
         {
-            "subTitle": "2025/11/9",
+            "subTitle": "2025/12/21",
             "subTitleUrl": "",
+            "songs": [
+                {
+                    "name": "讚美之泉 2024 聖誕 - 明亮晨星",
+                    "youtubeId": "6PoQuZN1L9A"
+                },
+                {
+                    "name": "讚美之泉 - 愛的約定",
+                    "youtubeId": "VajFZVKyd48"
+                }
+            ]
+        },
+        {
+            "subTitle": "2025/11/9",
+            "subTitleUrl": "https://www.youtube.com/watch?v=q-us6bDrh7Q",
             "songs": [
                 {
                     "name": "讚美之泉 17 - 我已得自由",
