@@ -26,7 +26,7 @@
         var isLocalHost = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
         var songsRemixUrl = isLocalHost
             ? 'http://localhost:3000/'
-            : 'https://christorng.github.io/SongsRemix/src/';
+            : 'https://christorng.idv.tw/SongsRemix/src/';
         var iframe = document.createElement('iframe');
         iframe.src = `${songsRemixUrl}?songsList=${location.href}`;
         document.body.appendChild(iframe);

@@ -1,6 +1,6 @@
 # SongsRemixDemo
 
-引用 [SongsRemix](https://github.com/ChrisTorng/SongsRemix) 進行多軌播放之範例曲目庫。請看 [線上展示](https://christorng.github.io/SongsRemixDemo/)。
+引用 [SongsRemix](https://github.com/ChrisTorng/SongsRemix) 進行多軌播放之範例曲目庫。請看 [線上展示](https://christorng.idv.tw/SongsRemixDemo/)。
 
 ## 如何自行製作曲目庫
 
